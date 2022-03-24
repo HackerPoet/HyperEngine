@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PreloadShaders
+  m_Shaders:
+  - first: {fileID: 16001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: ADJUST_TO_LINEARSPACE BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+  - first: {fileID: 4800000, guid: 4c6f7bb2ecab1fa46a15a06f10f86dba, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: BOUNDARY_BLEND
+        passType: 4
+      - keywords: BOUNDARY_BLEND INSTANCING_ON
+        passType: 4
+      - keywords: GLOW
+        passType: 4
+      - keywords: INSTANCING_ON PORTAL
+        passType: 4
+      - keywords: INSTANCING_ON WATER
+        passType: 4
+      - keywords: INSTANCING_ON WAVY
+        passType: 4
+      - keywords: IGNORE_TEX_COLOR
+        passType: 4
+  - first: {fileID: 4800000, guid: 49d3d38fa24077140bad500222a8931e, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS BOUNDARY_BLEND DIRECTIONAL LIGHTPROBE_SH
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS BOUNDARY_BLEND DIRECTIONAL INSTANCING_ON
+          LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+          PORTAL UNITY_HDR_ON
+        passType: 4
+      - keywords: INSTANCING_ON WATER
+        passType: 4
+      - keywords: INSTANCING_ON WAVY
+        passType: 4
+      - keywords: CLOUD INSTANCING_ON
+        passType: 4
+      - keywords: BOUNDARY_BLEND GLITCH
+        passType: 4
+      - keywords: BOUNDARY_BLEND GLITCH INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: ccf5e83edafd7f344b0b2e4bfb773fe1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: GLOW INSTANCING_ON
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL GLOW LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+      - keywords: INSTANCING_ON WAVY
+        passType: 4
+      - keywords: GLITCH INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 946949710195fc040afbd68ba8522eae, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: BOUNDARY_BLEND
+        passType: 4
+      - keywords: BOUNDARY_BLEND INSTANCING_ON
+        passType: 4
+      - keywords: INSTANCING_ON PLASMA
+        passType: 4
+      - keywords: INSTANCING_ON PORTAL
+        passType: 4
+  - first: {fileID: 4800000, guid: f3c99d2e82671074699108bb9aa1a75d, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: BOUNDARY_BLEND
+        passType: 4
+      - keywords: BOUNDARY_BLEND INSTANCING_ON
+        passType: 4
+      - keywords: GLOW
+        passType: 4
+      - keywords: GLOW INSTANCING_ON
+        passType: 4
+      - keywords: INSTANCING_ON PLASMA
+        passType: 4
+      - keywords: INSTANCING_ON PORTAL
+        passType: 4
+      - keywords: IGNORE_TEX_COLOR
+        passType: 4
+      - keywords: GLITCH INSTANCING_ON
+        passType: 4
+      - keywords: BOUNDARY_BLEND GLITCH
+        passType: 4
+      - keywords: BOUNDARY_BLEND GLITCH INSTANCING_ON
+        passType: 4
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+  - first: {fileID: 4800000, guid: 131e3a9a26eced743826da25f2280aac, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: a3a256452b8d87e4481ca2e4b0d8583e, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: GLOW INSTANCING_ON
+        passType: 4
+      - keywords: INSTANCING_ON WAVY
+        passType: 4
+      - keywords: IGNORE_TEX_COLOR
+        passType: 4
+      - keywords: USE_CLIP_RECT
+        passType: 4
+      - keywords: IGNORE_TEX_COLOR USE_CLIP_RECT
+        passType: 4
+      - keywords: GLITCH INSTANCING_ON
+        passType: 4
+      - keywords: BOUNDARY_BLEND GLITCH
+        passType: 4
+      - keywords: BOUNDARY_BLEND GLITCH INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 845be9adf9dd37c4b8cca57accb5db55, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: BILLBOARD_FACE_CAMERA_POS DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+          UNITY_HDR_ON
+        passType: 4
+      - keywords: IGNORE_TEX_COLOR
+        passType: 4
+  - first: {fileID: 4800000, guid: d4285176aa9ab224a86c599c6ca21934, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 37725882dc009c147ac5d8e111896b5f, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS
+        passType: 0
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: b7c1ebedd021932439a1bf59ba622379, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 4b455d5ab6444864ca44447e9be07a30, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 4
+      - keywords: USE_CLIP_RECT
+        passType: 4
+      - keywords: IGNORE_TEX_COLOR USE_CLIP_RECT
+        passType: 4
+  - first: {fileID: 4800000, guid: ebd039478ff9a7542be9a1116a5a56cf, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS INSTANCING_ON UNITY_HDR_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: bdd34b83db34fce448e2db0fedd16000, type: 3}
+    second:
+      variants:
+      - keywords: BILLBOARD_FACE_CAMERA_POS INSTANCING_ON LIGHTPROBE_SH UNITY_HDR_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 5e6bdf2670884dd4ebd41f059ff6d548, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 4
