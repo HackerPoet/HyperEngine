@@ -1,5 +1,5 @@
 # HyperEngine
-The Non-Euclidean Unity Backend for Hyperbolica
+The Non-Euclidean Unity Backend for [Hyperbolica](https://store.steampowered.com/app/1256230/Hyperbolica/)
 
 **This codebase is not actively maintained and is simply provided as a reference for others interested in making their own non-Euclidean games. It is not the complete source to "Hyperbolica" and only represents what backend components I could easily separate from the game itself. HyperEngine is MIT licensed and you're free to use all or any part of this library in your own personal or commercial projects.**
 
